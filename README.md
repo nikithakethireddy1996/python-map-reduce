@@ -36,12 +36,12 @@ cat part.txt | python 21mapper.py | sort
 cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 ```
 
-PowerShell and Bash which commands I used:
+PowerShell and Bash commands which I used:
   ```Bash
   cat purchases.txt
-  cat purchases.txt | python 21mapper.py
-  cat purchases.txt | python 21mapper.py | sort
-  cat purchases.txt | python 21mapper.py | sort  | python 22reducer.py
+  cat purchases.txt | py 21mapper.py
+  cat purchases.txt | py 21mapper.py | sort
+  cat purchases.txt | py 21mapper.py | sort  | py 22reducer.py
   ```
 
 ## References
