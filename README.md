@@ -17,9 +17,9 @@ Basic Python introduction and concepts needed in preparation for working with ma
 ## Case 1:  Local file-based
 
   ```PowerShell
-  py 11mapper.py
-  py 12sorter.py
-  py 13reducer.py
+  python 11mapper.py
+  python 12sorter.py
+  python 13reducer.py
   ```
 
 ## Case 2:  Use standard input and output
@@ -28,18 +28,10 @@ Use the console (standard input and output) and shell commands to pipe informati
 
 cat data | map | sort | reduce
 
-PowerShell and Bash use the same commands:
-```Bash
-cat part.txt
-cat part.txt | python 21mapper.py
-cat part.txt | python 21mapper.py | sort
-cat part.txt | python 21mapper.py | sort  | python 22reducer.py
-```
-
 PowerShell and Bash commands which I used for processing the dataset:
-To execute , we can use either  py file_name or python file_name, I have used the command py file_name.
+To execute , we can use either  py file_name or python file_name, I have used the command python file_name.
   ```Bash
-  cat purchases.txt | py 21mapper.py | sort  | py 22reducer.py
+  cat purchases.txt | python 21mapper.py | sort  | python 22reducer.py
   ```
 
 ## References
