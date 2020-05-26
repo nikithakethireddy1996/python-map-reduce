@@ -29,7 +29,14 @@ Use the console (standard input and output) and shell commands to pipe informati
 cat data | map | sort | reduce
 
 PowerShell and Bash use the same commands:
+```Bash
+cat part.txt
+cat part.txt | python 21mapper.py
+cat part.txt | python 21mapper.py | sort
+cat part.txt | python 21mapper.py | sort  | python 22reducer.py
+```
 
+PowerShell and Bash which commands I used:
   ```Bash
   cat purchases.txt
   cat purchases.txt | python 21mapper.py
