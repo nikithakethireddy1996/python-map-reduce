@@ -39,9 +39,6 @@ cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 PowerShell and Bash commands which I used for processing the dataset:
 To execute , we can use either  py file_name or python file_name, I have used the command py file_name.
   ```Bash
-  cat purchases.txt
-  cat purchases.txt | py 21mapper.py
-  cat purchases.txt | py 21mapper.py | sort
   cat purchases.txt | py 21mapper.py | sort  | py 22reducer.py
   ```
 
